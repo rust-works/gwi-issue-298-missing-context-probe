@@ -1,0 +1,78 @@
+name: pr-checks
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check-0:
+    name: Doc links
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for pull_request"
+  check-1:
+    name: Commit Message Lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for pull_request"
+  check-2:
+    name: Empty HOME Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for pull_request"
+  check-3:
+    name: Hostile Environment Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for pull_request"
+  check-4:
+    name: Windows Clippy
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for pull_request"
+  check-5:
+    name: Test (stable)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for pull_request"
+  check-6:
+    name: Test (nightly)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for pull_request"
+  check-7:
+    name: Windows Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for pull_request"
+  check-8:
+    name: Rustfmt
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for pull_request"
+  check-9:
+    name: Clippy
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for pull_request"
+  check-10:
+    name: Docs
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for pull_request"
+  check-11:
+    name: Changelog fragments
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for pull_request"

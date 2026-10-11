@@ -1,0 +1,72 @@
+name: queue-checks
+on:
+  merge_group:
+permissions:
+  contents: read
+jobs:
+  check-0:
+    name: Doc links
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for merge_group"
+  check-1:
+    name: Commit Message Lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for merge_group"
+  check-2:
+    name: Hostile Environment Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for merge_group"
+  check-3:
+    name: Windows Clippy
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for merge_group"
+  check-4:
+    name: Test (stable)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for merge_group"
+  check-5:
+    name: Test (nightly)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for merge_group"
+  check-6:
+    name: Windows Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for merge_group"
+  check-7:
+    name: Rustfmt
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for merge_group"
+  check-8:
+    name: Clippy
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for merge_group"
+  check-9:
+    name: Docs
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for merge_group"
+  check-10:
+    name: Changelog fragments
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "Successful fixture check for merge_group"
